@@ -9,6 +9,13 @@ export default {
     src: 'https://github.com/lucasabdouni.png',
     alt: 'Lucas Abdouni',
   },
+  argsTypes: {
+    src: {
+      control: {
+        src: 'text',
+      },
+    },
+  },
 } as Meta<AvatarProps>
 
 export const Primary: StoryObj<AvatarProps> = {}
