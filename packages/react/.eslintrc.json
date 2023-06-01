@@ -1,4 +1,4 @@
 {
-  "extends": "@ignite-ui/eslint-config"
+  "extends": "@lucasabdouni-ignite-ui/eslint-config"
 }
 

@@ -1,13 +1,15 @@
 .tokens-grid {
   width: 100%;
-  font-family: sans-serif;
-  color: #FFF;
   border-collapse: collapse;
+  font-family: sans-serif;
+  color: #fff;
 }
 
 .tokens-grid thead th {
   padding: 0.75rem 1rem;
   text-align: left;
+  text-transform: uppercase;
+  margin-bottom: 1rem;
 }
 
 .tokens-grid tbody td {
@@ -15,16 +17,16 @@
   color: #ccc;
 }
 
-.tokens-grid tbody td:first-child {
+.tokens-grid tbody td:first-child{
   border-top-left-radius: 8px;
   border-bottom-left-radius: 8px;
 }
 
-.tokens-grid tbody td:last-child {
+.tokens-grid tbody td:last-child{
   border-top-right-radius: 8px;
   border-bottom-right-radius: 8px;
 }
 
-.tokens-grid tbody td:nth-child(even) td{
-  background: #444;
+.tokens-grid tbody tr:nth-child(even) td{
+  background-color: #666;
 }

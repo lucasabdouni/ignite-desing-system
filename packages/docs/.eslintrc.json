@@ -1,6 +1,6 @@
 {
   "extends": [
-    "@ignite-ui/eslint-config",
+    "@@lucasabdouni-ignite-ui/eslint-config",
     "plugin:storybook/recommended"
   ]
 }
